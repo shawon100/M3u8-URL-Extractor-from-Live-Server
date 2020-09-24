@@ -1,5 +1,5 @@
 #!/bin/bash
-httrack -i http://mathanosto.top/tv/
+httrack -i http://mathanosto.top/tv/ 
 cd mathanosto.top/tv
 echo "" > IPTV.m3u
 echo "#EXTM3U" >> IPTV.m3u
@@ -12,3 +12,8 @@ for x in [player]*.html; do
 done
 
 cp IPTV.m3u ../../
+cp IPTV.m3u ~/Development/Github/M3u8-URL-Extractor-from-Live-Server
+cd ~/Development/Github/M3u8-URL-Extractor-from-Live-Server
+git add .
+git commit -m "Added Updated IPTV.m3u"
+git push origin master
