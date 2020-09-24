@@ -16,5 +16,5 @@ A m3u Playlist named IPTV.m3u will be generated in the same folder.
 Cronjob
 
 ```
-*/10 * * * * sh ~/scripts/extract.sh  # Update URL
+*/10 * * * * sh ~/M3u8-URL-Extractor-from-Live-Server/extract.sh  # Update URL
 ```
