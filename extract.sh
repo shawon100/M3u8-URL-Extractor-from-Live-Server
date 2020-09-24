@@ -1,5 +1,5 @@
 #!/bin/bash
-httrack http://mathanosto.top/tv/
+httrack -i http://mathanosto.top/tv/
 cd mathanosto.top/tv
 echo "" > IPTV.m3u
 echo "#EXTM3U" >> IPTV.m3u
