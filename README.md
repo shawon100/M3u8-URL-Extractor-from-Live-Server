@@ -10,4 +10,4 @@ Then Run the shell script
 ```
 sh extract.sh
 ```
-A m3u Playlist named IPTV.m3u will be generated in the same folder
+A m3u Playlist named IPTV.m3u will be generated in the same folder.
