@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~/scripts
 httrack -i http://mathanosto.top/tv/ 
 cd mathanosto.top/tv
 echo "" > IPTV.m3u
