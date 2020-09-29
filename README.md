@@ -15,7 +15,13 @@ sh extract.sh
 ```
 A m3u Playlist named IPTV.m3u will be generated in the same folder.
 
-Cronjob
+Open Cronjob
+
+```
+crontab -e
+```
+
+Add this Cronjob
 
 ```
 */50 * * * * sh ~/scripts/extract.sh
